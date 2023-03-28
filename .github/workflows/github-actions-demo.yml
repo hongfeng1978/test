@@ -14,7 +14,7 @@ jobs:
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       - run: gcc /home/runner/work/test/test/hello.c
       - run: ls /home/
-      - run: ls /home/runner
+      - run: which gcc
       - run: ls /home/runner/work
       - name: List files in the repository
         run: |
