@@ -18,8 +18,8 @@ jobs:
       - run: ls /home/
       - run: which gcc
       - run: ls /home/runner/work
-      - run: test.sh aaaa
-      - run: test.sh
+      - run: /home/runner/work/test/test/test.sh aaaa
+      - run: /home/runner/work/test/test/test.sh
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
