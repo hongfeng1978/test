@@ -19,7 +19,7 @@ jobs:
       - run: which gcc
       - run: ls /home/runner/work
       - run: chmod +x /home/runner/work/test/test/test.sh
-      - run: /home/runner/work/test/test/test.sh aaaa
+      - run: ./test.sh aaaa
 #      - run: /home/runner/work/test/test/test.sh
       - run: pwd
       - name: List files in the repository
