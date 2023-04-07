@@ -16,6 +16,7 @@ jobs:
       - run: gcc -v /home/runner/work/test/test/hello.c
       - run: /home/runner/work/test/test/a.out
       - run: ls /home/
+      - run: pwd
       - run: which gcc
       - run: ls /home/runner/work
       - run: chmod +x /home/runner/work/test/test/test.sh
